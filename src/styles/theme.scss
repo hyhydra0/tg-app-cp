@@ -1,0 +1,24 @@
+:root:root {
+  --dark-color: #000;
+  --light-color: #fff;
+  --primary-color: #051745;
+  --dark-color: #010f33;
+  // --dark-bg-color: #2f3c6b;
+}
+
+:root.light {
+  // --test: blue;
+  // --ant-input: rgba(47, 60, 107, 0.5);
+}
+
+:root.dark {
+  // --test: red;
+  // --ant-input: rgba(113, 117, 151, 1);
+}
+
+.light {
+  // color: var(--light-color);
+}
+
+.dark {
+}

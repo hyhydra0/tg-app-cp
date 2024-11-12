@@ -1,0 +1,74 @@
+html {
+  transition: background-color 0.2s;
+  height: 100%;
+}
+
+body {
+  font-size: 12px;
+  text-transform: capitalize;
+  height: 100%;
+  touch-action: manipulation;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+*,
+:lang(en) body,
+[lang]:lang(en),
+body,
+html {
+  // font-family: "Roboto", sans-serif;
+  font-family: "Jura", sans-serif;
+  word-wrap: break-word;
+  // font-display: fallback;
+  @apply text-light_color;
+}
+
+.scroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+input::-webkit-input-placeholder {
+  color: #9a9ea4 !important;
+}
+
+.scrollY {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollX {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollX,
+.scrollY::-webkit-scrollbar {
+  display: none;
+}
+
+// .custom-box-shadow-1 {
+//   box-shadow: 0px 0px 10px 0px rgba(143, 3, 255, 0.86);
+// }
+
+.custom-box-shadow-2 {
+  // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #57FFFF00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #3794FF;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 0px 15px -1px #3794FF;
+}
+
+.blue-btn {
+  background-color: transparent;
+  background-image: linear-gradient(189deg, #57FFFF 0%, #3794FF 100%);
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0px 0px 15px -1px #3794FF;
+}
