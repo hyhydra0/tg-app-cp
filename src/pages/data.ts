@@ -7,17 +7,17 @@ type Link = {
   img: any;
 };
 
-import website from "@/assets/website.png";
-import event from "@/assets/event.jpg";
-import vision from "@/assets/vision.jpg";
-import roadmap from "@/assets/roadmap.jpg";
-import game from "@/assets/game.jpg";
+import website from "@/assets/website.webp";
+import press from "@/assets/press.webp";
+import whitepaper from "@/assets/whitepaper.webp";
+import ecosystem from "@/assets/ecosystem.webp";
+import smartwallet from "@/assets/smartwallet.webp";
 
 export const LINKS: Link[] = [
   {
     id: 1,
     name: "Website",
-    title: "Check out our amazing website, powered by CP ventures",
+    title: "Check out the CryptoPerformance websit",
     text: "Open Website in Browser",
     url: "https://cpcoin.io",
     img: website,
@@ -25,33 +25,33 @@ export const LINKS: Link[] = [
   {
     id: 2,
     name: "Press",
-    title: " An incredible event is coming up soon, join the event now",
+    title: "Read the latest articles and releases on our Press section",
     text: "Open Event in Browser",
     url: "https://news.cryptoperformance.io",
-    img: event,
+    img: press,
   },
   {
     id: 3,
     name: "Whitepaper",
-    title: "The vision of a company is crucial, check our vision here",
+    title: "Want more in-depth information? Here you will find our Whitepaper",
     text: "Open Vision in Browser",
     url: "https://cpcoin.io/wp-content/uploads/2023/05/CPCoin_WhitePaper_v.05.23.pdf",
-    img: vision,
+    img: whitepaper,
   },
   {
     id: 4,
     name: "Ecosystem",
-    title: "What is the future of Polyverse? Find out here what’s cooking",
+    title: "Here you will find a complete overview on our Ecosystem",
     text: "Open Roadmap in Browser",
     url: "https://ecosystem.cpcoin.io",
-    img: roadmap,
+    img: ecosystem,
   },
   {
     id: 5,
     name: "SmartWallet",
-    title: "Want to see some game play? Please click here to visit",
+    title: "Set up your Smart Wallet now",
     text: "Open Game streaming in Browser",
     url: "https://smartwallet.cpcoin.io/#/wallet/welcome",
-    img: game,
+    img: smartwallet,
   },
 ];
